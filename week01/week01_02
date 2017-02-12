@@ -1,0 +1,8 @@
+#!/bin/bash
+
+addr="www.textfiles.com/etext/FICTION/"
+s=$(curl -s www.textfiles.com/etext/FICTION/ | grep -wo -e 'HREF=".*"' | cut -d "\"" -f2)
+for i in $s; do
+    curl -s www.textfiles.com/etext/FICTION/$i>>allbooks.txt
+    echo "Writen file name $i from www.textfiles.com/etext/FICTION/$i"
+done
