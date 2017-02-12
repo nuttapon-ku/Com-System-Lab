@@ -1,0 +1,6 @@
+#!/bin/bash
+
+addr="www.textfiles.com/etext/FICTION/"
+s=$(curl -s www.textfiles.com/etext/FICTION/ | awk '{print $7 "\t" $4}' | sort -n  |sed -e 's/<BR><TD>//g' | sed -e 's/HREF="//g' | sed -e 's/[<A/>]//g' | sed -e 's/["].*//g' | awk 'END{print $2}')
+echo "File name : $s"
+echo "Link      : $addr$s"
