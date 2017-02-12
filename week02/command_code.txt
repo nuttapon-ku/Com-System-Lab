@@ -1,0 +1,17 @@
+To build docker
+
+sudo docker build -f Dockerfile -t doc .
+
+To compile & run java
+
+sudo docker run --rm -v $PWD:/app -w /app doc javac Main.java
+
+sudo docker run --rm -v $PWD:/app -w /app doc java Main
+
+To compile & run C
+
+sudo docker run --rm -v $PWD:/app -w /app doc gcc main.c
+
+sudo docker run --rm -v $PWD:/app -w /app doc ./a.out
+
+doc = docker-name
