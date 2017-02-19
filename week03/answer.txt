@@ -1,0 +1,8 @@
+1.The number of instructions : 4045
+2.Overall effective CPI.     : 2150.80
+
+CPI = (Execution time*Frequency)/Instruction Count
+    = (0.003s*2.9GHz)/4045
+    = 2150.80
+
+Specification : Intel Core i5 2.9 GHz
