@@ -8,8 +8,8 @@ Run :
 
 3.2 
 Run :
-	$ python matmult.py
+	$ python np.py
 
 3.3
 Run :
-	$ python np.py
+	$ python matmult.py
