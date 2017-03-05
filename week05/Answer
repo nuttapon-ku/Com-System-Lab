@@ -1,0 +1,29 @@
+Spec : Intel® Core™ i7-3770S CPU @ 3.10GHz
+
+1.
+List the total cycles, total instructions, CPIs for "computation_mult" in  a table form for each case, totally 8 cases.
+Which one gives you the best CPI?
+
+							total cycles		total instructions		CPIs
+no O 						370934205			7009997					52.915030
+-O1							20545				10023					2.049785
+-O2							20526				10025					2.047481
+-O3							20591				10022					2.054580
+-Os 						20460				10028					2.040287
+-Ofast						18178				10053					1.808216
+-foptimize-register-move	370046278			7009998					52.788357				
+-fsched2-use-superblocks	370109183			7010001					52.797308
+-funroll-all-loops			370393085			7010014					52.837710
+
+-Ofast give the best CPI.
+
+2.
+matrix size: 1,000 x 1,000:
+MFLOPS (Million): 361.294256
+MIPS: 3060
+Execution time: 13.643034
+
+matrix size: 10,000 x 10,000:
+MFLOPS (Million): 350.887432
+MIPS: 2954
+Execution time: 9498.664084
