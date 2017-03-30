@@ -1,0 +1,3 @@
+grep -oi '\<this\>\|\<these\>' lesms10.txt | wc -l
+
+sed 's/\<[Aa][Cc][a-z]*[Dd]\>//g' lesms10.txt
