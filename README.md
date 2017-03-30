@@ -1,7 +1,8 @@
 # Computer System Laboratory (01204324)
-Week 1: Basic unix commands\n
-Week 2: Virtualisation, Container
-Week 3: Assembly and C
-Week 4: C and Python
-Week 5: Review your hardware performance with PAPI and RAPL
-Week 6 : Pthreads and Synchronization
+Week
+1. Basic unix commands
+2. Virtualisation, Container
+3. Assembly and C
+4. C and Python
+5. Review your hardware performance with PAPI and RAPL
+6. Pthreads and Synchronization
