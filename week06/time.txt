@@ -1,0 +1,53 @@
+mutex_string.c
+File name : 01all.nt 
+Buffer size		|Time (seconds)		|Found (times)
+----------------|-------------------|----------------
+5K				|8.000000 seconds	|2733259 times
+10K 			|7.000000 seconds	|2733259 times
+50K				|6.000000 seconds	|2733259 times
+100K			|5.000000 seconds	|2733259 times
+
+File name : 02all.nt
+Buffer size		|Time (seconds)		|Found (times)
+----------------|-------------------|----------------
+5K				|16.000000 seconds	|5466518 times
+10K 			|13.000000 seconds	|5466518 times
+50K				|11.000000 seconds	|5466518 times
+100K			|10.000000 seconds	|5466518 times
+
+con_var.c
+File name : 01all.nt 
+Consume size	|Buffer size		|Time (seconds)		|Found (times)
+----------------|-------------------|-------------------|----------------
+1K 				|5K					|41.000000 seconds	|2733259 times
+1K 				|10K 				|40.000000 seconds	|2733259 times
+1K 				|50K				|40.000000 seconds	|2733259 times
+1K 				|100K				|40.000000 seconds	|2733259 times
+1K 				|500K				|39.000000 seconds	|2733259 times
+5K 				|50K				|20.000000 seconds	|2733259 times
+5K 				|100K 				|18.000000 seconds	|2733259 times
+5K 				|500K				|17.000000 seconds	|2733259 times
+10K				|50K				|14.000000 seconds	|2733259 times
+10K				|100K 				|14.000000 seconds	|2733259 times
+10K				|500K				|13.000000 seconds	|2733259 times
+20K				|50K				|12.000000 seconds	|2733259 times
+20K				|100K 				|11.000000 seconds	|2733259 times
+20K				|500K				|10.000000 seconds	|2733259 times
+
+File name : 02all.nt 
+Consume size	|Buffer size		|Time (seconds)		|Found (times)
+----------------|-------------------|-------------------|----------------
+1K 				|5K					|93.000000 seconds	|5466518 times
+1K 				|10K 				|90.000000 seconds	|5466518 times
+1K 				|50K				|87.000000 seconds	|5466518 times
+1K 				|100K				|85.000000 seconds	|5466518 times
+1K 				|500K				|82.000000 seconds	|5466518 times
+5K 				|50K				|42.000000 seconds	|5466518 times
+5K 				|100K 				|38.000000 seconds	|5466518 times
+5K 				|500K				|35.000000 seconds	|5466518 times
+10K				|50K				|32.000000 seconds	|5466518 times
+10K				|100K 				|32.000000 seconds	|5466518 times
+10K				|500K				|31.000000 seconds	|5466518 times
+20K				|50K				|31.000000 seconds	|5466518 times
+20K				|100K 				|30.000000 seconds	|5466518 times
+20K				|500K				|30.000000 seconds	|5466518 times
