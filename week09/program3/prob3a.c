@@ -68,7 +68,7 @@ void child_process(char * path) {
 
 int main(int argc, char **argv) {
     if(argc < 2) {
-        printf("usage: ./prob3a [DIR]\n");
+        printf("wrong input: ./prob3a [DIR]\n");
         exit(0);
     }
     sem_init(&mutex, 0, 1);
@@ -91,7 +91,7 @@ int main(int argc, char **argv) {
     *count = 0;
     /* END SHARED MEMORY CODE  */
     count_dir_content(argv[1]);
-    printf("The number of files is: %ld\n", *count);
+    printf("The number of files: %ld\n", *count);
     shmdt(shm);
     return(0);
 }

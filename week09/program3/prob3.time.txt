@@ -1,7 +1,11 @@
 prob3a
-The number of files is: 2
-real	0m0.001s
-user	0m0.000s
-sys	    0m0.000s
+The number of files: 12118
+real	0m7.222s
+user	0m0.024s
+sys	    0m1.128s
 
 prob3b
+The number of files: 12118
+real	0m0.792s
+user	0m0.004s
+sys	    0m0.012s
